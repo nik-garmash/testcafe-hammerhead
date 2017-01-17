@@ -52,7 +52,6 @@ var requestTransforms = {
     [XHR_HEADERS.withCredentials]:         skip,
     [XHR_HEADERS.origin]:                  skip,
     [XHR_HEADERS.fetchRequestCredentials]: skip,
-    'authorization':                       transformAuthorizationHeader,
     'authentication-info':                 transformAuthorizationHeader,
     'proxy-authenticate':                  transformAuthorizationHeader,
     'proxy-authorization':                 transformAuthorizationHeader

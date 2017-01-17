@@ -1,5 +1,5 @@
 {
-  "name": "testcafe-hammerhead",
+  "name": "testcafe-hammerhead-datalens",
   "description": "A powerful web-proxy used as a core for the TestCafe testing framework (https://github.com/DevExpress/testcafe).",
   "version": "10.3.1",
   "homepage": "https://github.com/DevExpress/testcafe-hammerhead",

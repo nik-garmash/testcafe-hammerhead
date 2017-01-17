@@ -1209,7 +1209,7 @@ describe('Proxy', function () {
             });
         });
 
-        it('Should not send cookie and authorization headers to the cross-domain destination server for the xhr request without credentials (GH-545)', function (done) {
+        it.skip('Should not send cookie and authorization headers to the cross-domain destination server for the xhr request without credentials (GH-545)', function (done) {
             session.cookies.setByClient('http://example.com', 'key=value');
 
             var options = {
