@@ -84,5 +84,8 @@
     "test": "gulp travis",
     "publish-please": "publish-please",
     "prepublish": "publish-please guard"
+  },
+  "publishConfig":{
+    "registry":"https://artifactory.in.here.com/artifactory/api/npm/here-node-local"
   }
 }
